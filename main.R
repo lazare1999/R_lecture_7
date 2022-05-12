@@ -27,6 +27,7 @@ InvoiceNo <- as.numeric(as.character(retail$InvoiceNo))
 
 #Bind new columns TransTime and InvoiceNo into dataframe retail
 cbind(retail,TransTime)
+cbind(retail,InvoiceNo)
 
 glimpse(retail)
 
